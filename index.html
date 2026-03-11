@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Currency Converter</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="style.css">
+
+<!-- Chart library -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<!-- searchable dropdown -->
+<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0/dist/css/select2.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+<div class="box">
+
+<h2>Currency Converter</h2>
+
+<label>From</label>
+<select id="from" class="currency"></select>
+
+<input type="number" id="amount" placeholder="Enter amount">
+
+<label>To</label>
+<select id="to" class="currency"></select>
+
+<input type="text" id="result" placeholder="Converted amount" readonly>
+
+<button onclick="convert()">Convert</button>
+
+<button class="swap" onclick="swapCurrency()">Swap Currency</button>
+
+<button onclick="toggleDark()">Dark Mode</button>
+
+<div id="history" class="history"></div>
+
+<canvas id="chart"></canvas>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0/dist/js/select2.min.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -11,7 +11,8 @@ This is a simple currency converter built using HTML, CSS and JavaScript.
 - Searchable currency list
 - Mobile responsive design
 - Exchange rate chart
-
+- Easy use
+  
 ## Technologies Used
 - HTML
 - CSS
@@ -24,4 +25,5 @@ This is a simple currency converter built using HTML, CSS and JavaScript.
 2. Open index.html in a browser
 
 ⚠️ This project is publicly visible for demonstration purposes only.
+
 Copying or modifying the code without permission is prohibited.
